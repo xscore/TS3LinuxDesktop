@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<mime-info xmlns='http://www.freedesktop.org/standards/shared-mime-info'>
+  <mime-type type='application/x-ts3-addon'>
+    <comment>TeamSpeak 3 Client Addon</comment>
+    <glob pattern='*.ts3_addon'/>
+    <glob pattern='*.ts3_plugin'/>
+    <glob pattern='*.ts3_style'/>
+    <glob pattern='*.ts3_translation'/>
+    <glob pattern='*.ts3_soundpack'/>
+    <glob pattern='*.ts3_iconpack'/>
+  </mime-type>
+</mime-info>

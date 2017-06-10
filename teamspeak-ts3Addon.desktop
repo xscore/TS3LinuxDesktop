@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=TeamSpeak 3 Client Package Installer
+Comment=Install TeamSpeak 3 Addons
+Path=/opt/teamspeak-client
+Exec=/bin/sh -c 'LD_LIBRARY_PATH="/opt/teamspeak-client:$LD_LIBRARY_PATH" /opt/teamspeak-client/package_inst %f'
+Icon=teamspeak-client
+Terminal=false
+MimeType=application/x-ts3-addon;
+NoDisplay=true

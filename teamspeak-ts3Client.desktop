@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=TeamSpeak 3 Client
+Comment=TeamSpeak Voice Communication Client
+Path=/opt/teamspeak-client
+Exec=/opt/teamspeak-client/ts3client_runscript.sh %u
+Icon=teamspeak-client
+Terminal=false
+MimeType=x-scheme-handler/ts3server;
+Categories=AudioVideo;Audio;Network;Chat
