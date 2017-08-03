@@ -4,7 +4,8 @@ Version=1.0
 Name=TeamSpeak 3 Client
 Comment=TeamSpeak Voice Communication Client
 Path=/opt/teamspeak-client
-Exec=/opt/teamspeak-client/ts3client_runscript.sh %u
+TryExec=/opt/teamspeak-client/ts3client_linux_amd64
+Exec=/bin/sh -c 'LD_LIBRARY_PATH="/opt/teamspeak-client:$LD_LIBRARY_PATH" /opt/teamspeak-client/ts3client_linux_amd64 %u'
 Icon=teamspeak-client
 Terminal=false
 MimeType=x-scheme-handler/ts3server;

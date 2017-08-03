@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=TeamSpeak 3 Client
+Comment=TeamSpeak Voice Communication Client
+Path=/opt/teamspeak-client
+TryExec=/opt/teamspeak-client/ts3client_linux_x86
+Exec=/bin/sh -c 'LD_LIBRARY_PATH="/opt/teamspeak-client:$LD_LIBRARY_PATH" /opt/teamspeak-client/ts3client_linux_x86 %u'
+Icon=teamspeak-client
+Terminal=false
+MimeType=x-scheme-handler/ts3server;
+Categories=AudioVideo;Audio;Network;Chat
