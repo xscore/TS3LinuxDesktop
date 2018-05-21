@@ -9,7 +9,7 @@ These files aim to provide the same experience on Linux Desktop systems.
 - Install the [TeamSpeak 3 Client](https://teamspeak.com/downloads#client) to `/opt/teamspeak-client`
  or symlink `/opt/teamspeak-client` to your client installation directory.
 - Clone or download the repo.
-- Run `installAssets.sh` as root (for all users) or as yourself to install only for yourself.
+- Run `installAssoc.sh` as root (for all users) or as yourself to install only for yourself.
 
 ## Supported Desktop Environments
 Currently this is known to work and has been tested with the following desktop environments:
@@ -23,4 +23,4 @@ In theory it should work in all desktop environments that support the
 [FreeDesktop spec](http://standards.freedesktop.org/desktop-entry-spec/latest/).
 
 ## Troubleshooting
-If you cannot see the icon right away in the menu, try switching the icon theme or clear the icon cache.
+If you cannot see the icon in the menu right away, try switching the icon theme or clear the icon cache.
